@@ -1,0 +1,13 @@
+for running just the Verilog code 
+
+
+iverilog.exe -o test.v.txt
+vvp test 
+
+for running the Verilog code and testbench 
+
+iverilog -o adder fa.v fa_test.v
+vvp adder 
+gtkwave full_adder.vcd
+
+
